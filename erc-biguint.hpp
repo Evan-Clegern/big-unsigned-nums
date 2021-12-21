@@ -216,6 +216,13 @@ public:
 		}
 		std::cout << this->data[0] << '\n';
 	}
+	
+	void operator++() {
+		this->add(1, 0);	
+	}
+	void operator--() {
+		this->sub(1, 0);	
+	}
 };
 
 typedef ExtendedUInt<2> u128;
