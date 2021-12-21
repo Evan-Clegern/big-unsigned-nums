@@ -20,6 +20,9 @@
 // Have you ever wanted to store a 4,194,240-bit number?
 // At the cost of 4 megabytes of RAM, now you can!
 
+#ifndef ERCLIB_EXTUINT_HPP
+#define ERCLIB_EXTUINT_HPP
+
 #include <stdexcept>
 #include <iostream>
 #include <cstdint>
@@ -231,3 +234,5 @@ typedef ExtendedUInt<4> u256;
 typedef ExtendedUInt<5> u320;
 
 }
+
+#endif
